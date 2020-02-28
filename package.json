@@ -1,0 +1,30 @@
+{
+  "name": "pino-express",
+  "version": "1.0.0",
+  "description": "Logging with Pino in Express.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js | pino-pretty"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nihal9ns/pino-express.git"
+  },
+  "keywords": [
+    "Pino",
+    "Express.js",
+    "Node.js",
+    "Logging"
+  ],
+  "author": "Nihal Kaul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nihal9ns/pino-express/issues"
+  },
+  "homepage": "https://github.com/nihal9ns/pino-express#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-pino-logger": "^4.0.0"
+  }
+}
